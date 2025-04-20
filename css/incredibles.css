@@ -1,0 +1,147 @@
+/* Product Slide Container */
+.product-slide {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    box-sizing: border-box;
+    background: white; /* Adjust as needed */
+    border-radius: 8px; /* Optional */
+}
+
+/* Image Container (132x132) */
+.product-image-wrapper {
+    width: 132px;
+    height: 132px;
+    margin-bottom: 56px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background: #f8f8f8; /* Placeholder color */
+    border-radius: 4px; /* Optional */
+}
+
+.product-image {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+/* Bottom Row Layout */
+.product-bottom-row {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0 5px;
+
+}
+.title-product{
+    width:100% ;
+    height: 10px;
+    position: relative;
+    bottom: 45px;
+
+    p{
+        width: 80%;
+        margin: 0 auto;
+        font-family:estedad ;
+        font-size: 12px;
+        color: #444444 ;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        line-clamp: 2;
+        -webkit-line-clamp: 2;
+        overflow: hidden; 
+    }
+   
+}
+/* 25x25 Rectangle */
+.small-rectangle {
+    margin-bottom: 25px;
+    margin-left: 10px;
+    width: 35px;
+    height: 25px;
+    font-family: estedad;
+    text-align: center;
+    font-size: 12px;
+    color: white;
+    background: #D32F2F; /* Your brand color */
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+/* Price Section */
+.price-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.product-price {
+    font-size: 15px;
+    font-weight: bold;
+    color: #484848;
+    margin-bottom: 4px;
+    display: flex;
+    flex-direction: row;
+    img{
+        width: 15px !important;
+        height: 15px !important;
+        color: #484848 !important;
+    }
+}
+
+.hollow-under-price {
+    width: 60px;
+    height: 2px;
+    text-decoration: line-through;
+    font-family: estedad;
+    font-size: 12px;
+    color: #d0d0d0;
+    font-weight: bolder;
+}
+.last-slide {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.circle-container {
+    margin-bottom: 20px;
+}
+
+.aqua-circle {
+    width: 60px;
+    height: 60px;
+    background-color: white; /* Aqua color */
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    color: aqua;
+    font-weight: bold;
+    border: 2px solid aqua;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+    img{
+        width: 35px !important;
+        height: 35px !important;
+        filter: invert(48%) sepia(79%) saturate(2476%) hue-rotate(160deg) brightness(118%) contrast(119%);
+    }
+}
+
+.example-text {
+    font-size: 14px;
+    color: #433f3f;
+    text-align: center;
+    font-family: estedad;
+    max-width: 80%;
+    line-height: 1.5;
+}

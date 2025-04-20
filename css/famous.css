@@ -1,0 +1,105 @@
+.famous-brand{
+    width: 80%;
+    height: 225px;
+    display: block;
+    margin: 0 auto;
+    border: 1px solid lightgray;
+    border-radius: 15px;
+    margin-bottom: 18px;
+    .famous-title{
+        width: 100%;
+        height: 55px;
+        display: flex;
+        margin: 0 auto;
+        margin-top: 10px;
+        img{
+          direction: rtl;
+          position: relative;
+          width: 25px;
+          height: 25px;
+          left: 770px;
+          top: 8px;
+          filter: 
+          invert(75%)     /* Lighten the black */
+          sepia(30%)      /* Add warm tone */
+          saturate(700%)  /* Boost color */
+          hue-rotate(5deg);
+
+        }
+
+        p{
+          margin: 0 auto;
+          text-align: center;
+          font-family: estedad;
+          font-size: 20px;
+          color: black;
+          font-weight: bolder;
+        }
+      
+      }
+
+    .famous-brand-item{
+        width: 100%;
+        height: 140px;
+
+        .swiper {
+            width: 100%;
+            height: 100%;
+            direction: rtl;
+          }
+      
+          .swiper-slide {
+            text-align: center;
+            font-size: 18px;
+            background: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+      
+          .swiper-slide img {
+            display: block;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+          }
+
+    }
+
+
+}
+
+
+/* Image container with pipe */
+.image-with-pipe {
+    display: flex;
+    align-items: center;
+}
+
+/* Single image styling */
+.single-image {
+    width: 115px !important;
+    height: 115px !important;
+}
+
+.pipe-divider {
+    width: 1px;
+    height: 120px; /* Adjust height as needed */
+    background-color: lightgray !important; /* Force black color */
+    margin: 0 15px; /* Space around the pipe */
+    display: block !important; /* Ensure it's visible */
+}
+
+/* Remove pipe from last slide */
+.swiper-slide:last-child .pipe-divider {
+    display: none;
+}
+
+/* Navigation arrows */
+.swiper-button-next,
+.swiper-button-prev {
+    color: #D52D4E;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}

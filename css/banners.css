@@ -1,0 +1,63 @@
+.banner{
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    margin: 0 auto;
+    .banner-aval{
+        display: flex;
+        margin: 0 auto;
+        margin-left: 180px;
+        width: 100%;
+        height: 100%;
+        margin-top: 18px;
+        margin-bottom: 18px;
+        img{
+            margin-left: 7px;
+            margin-right: 7px;
+            width: 320px;
+            height: 240px;
+            border: 1px solid white;
+            border-radius: 15px;
+        }
+    }
+    .banner-dovom{
+        display: flex;
+        margin: 0 auto;
+        width: 79%;
+        height: 110px ;
+        img{
+            width: 100%;
+            height: 110px;
+            border: 1px solid white;
+            border-radius: 15px;
+
+        }
+
+    }
+
+    
+
+}
+
+.banner-yek{
+    width: 100%;
+    height: 270px;
+    display: flex;
+    flex-flow: row wrap;
+    margin: 0 auto; 
+    margin-bottom: 12px; 
+    .banner-third{
+        display: flex;
+        margin: 0 auto;
+        width: 79%;
+        height: 110px ;
+        gap: 15px;
+        img{
+            width: 660px;
+            height: 266px;
+            border: 1px solid white;
+            border-radius: 15px;
+
+        }        
+    }  
+}
